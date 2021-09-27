@@ -5,8 +5,8 @@ export default function Contact() {
     <>
       <div className="form">
         <div className="form_head">
-          <button> Contact </button> <h4>Get in Touch </h4>{" "}
-        </div>{" "}
+          <button> Contact </button> <h4>Get in Touch </h4>
+        </div>
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -18,10 +18,10 @@ export default function Contact() {
                   allowfullscreen=""
                   loading="lazy"
                 >
-                  {" "}
-                </iframe>{" "}
-              </div>{" "}
-            </div>{" "}
+                  
+                </iframe>
+              </div>
+            </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <div className="form_field">
                 <form>
@@ -32,8 +32,8 @@ export default function Contact() {
                         className="form-control"
                         placeholder="Your Name"
                       />
-                    </div>{" "}
-                  </div>{" "}
+                    </div>
+                  </div>
                   <div className="row mt-4">
                     <div className="col">
                       <input
@@ -41,15 +41,15 @@ export default function Contact() {
                         className="form-control"
                         placeholder="Your Email"
                       />
-                    </div>{" "}
+                    </div>
                     <div className="col">
                       <input
                         type="text"
                         className="form-control"
                         placeholder="Subject"
                       />
-                    </div>{" "}
-                  </div>{" "}
+                    </div>
+                  </div>
                   <div className="row  mt-4">
                     <div className="col">
                       <textarea
@@ -59,18 +59,18 @@ export default function Contact() {
                         cols="30"
                         rows="10"
                       >
-                        {" "}
-                      </textarea>{" "}
-                    </div>{" "}
-                  </div>{" "}
+                        
+                      </textarea>
+                    </div>
+                  </div>
                   <button className="btn btn-danger  mt-4">
-                    {" "}
-                    <span> Send Message </span>{" "}
+                    
+                    <span> Send Message </span>
                   </button>
-                </form>{" "}
-              </div>{" "}
-            </div>{" "}
-          </div>{" "}
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
