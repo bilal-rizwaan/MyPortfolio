@@ -42,7 +42,6 @@ export default function About() {
                     </li>
                   </ul>
                   <a href={pdfile} download>
-                    
                     Download CV
                   </a>
                 </div>
